@@ -561,3 +561,36 @@ footer {
     transform: translateY(0);
     opacity: 1;
 }
+
+
+
+
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
+    /* .main-menu-wrapper {
+        position: absolute;
+        inset: 0;
+        display: flex;
+    
+    } */
+
+    /* .main-menu {
+        display: flex;
+        pointer-events: visible;
+    } */
+}
+
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {}
